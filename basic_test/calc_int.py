@@ -11,3 +11,13 @@ class Solution:
     """
     def reverseInteger(self, number):
         # write your code here
+        number = 123
+        num_i = 0
+        revnum = 0
+        for i in range(3):
+            num_i = number // (10**(i)) % 10
+            revnum = (10**(2-i)) * num_i 
+        print(revnum)
+        
+            
+    
