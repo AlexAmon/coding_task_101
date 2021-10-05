@@ -11,3 +11,7 @@ class Solution:
     """
     def calculate(self, r):
         # write your code here
+        import math
+        area = float(r) ** 2
+        perimeter = 2 * float(r) * math.pi
+        print([area, perimeter])
